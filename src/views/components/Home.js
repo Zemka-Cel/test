@@ -6,6 +6,7 @@ import Eng from '../assets/engineering.png';
 import Science from '../assets/science.png';
 import Chemistry from '../assets/chemistry.png';
 import Physics from '../assets/physics.png';
+import Nav from '../components/nav.js';
 
 class Home extends React.Component {
 
@@ -13,6 +14,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="home">
+                <Nav></Nav>
                 <div className="first">
                 <h1 className="title">Hi, Azemina!</h1>
                 <div className="div_text">
