@@ -1,12 +1,13 @@
 import React from 'react';
+import '../style/Answers.css';
 
 class Answers extends React.Component {
 
 
     render() {
         return (
-            <div >
-Answ view
+            <div className="Answers">
+
             </div>
         )
     }
