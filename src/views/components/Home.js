@@ -31,7 +31,7 @@ class Home extends React.Component {
 
                    <div className="fields"> 
                    <div className="fields_pair">
-                <img src={Math} className="img_1"></img>
+                <img src={Math} className="img_1" onClick={()=> this.props.history.push('/answers')}></img>
                 <img src={Coding}></img>
                 </div>
 
