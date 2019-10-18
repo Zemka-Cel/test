@@ -7,6 +7,7 @@ class Home extends React.Component {
         return (
             <div>
 Home view
+                <h1>test test</h1>
             </div>
         )
     }
