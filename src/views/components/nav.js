@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/navstyle.css';
+import Profilna from '../assets/profilna.png';
 
 class Nav extends React.Component {
 
@@ -26,6 +27,7 @@ class Nav extends React.Component {
                         </ul>
 
                     </div>
+                    <img className="pt-1" src={Profilna}></img>
                 </nav>
             </div>
         )
