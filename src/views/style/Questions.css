@@ -1,0 +1,15 @@
+.question{
+    display: flex;
+    flex-direction: column;
+}
+.title_question{
+
+    font-size: 24px;
+    font-weight: 600;
+}
+.text_ask{
+    font-size: 16px;
+}
+.input_ask{
+
+}
