@@ -7,6 +7,7 @@ import Science from '../assets/science.png';
 import Chemistry from '../assets/chemistry.png';
 import Physics from '../assets/physics.png';
 import Nav from '../components/nav.js';
+import history from '../../history';
 
 class Home extends React.Component {
 
@@ -20,7 +21,7 @@ class Home extends React.Component {
                 <div className="div_text">
                 <p className="paragraph">Do you want to search for a help and ask other students questions?</p>
                 </div>
-                <button className="button_learning">Start learning</button>
+                <button onClick={()=> this.props.history.push('/questions')} className="button_learning">Start learning</button>
                 </div>
                 <div className="second">
                     <div className="tutors_container">
