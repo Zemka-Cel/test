@@ -1,6 +1,6 @@
 import React from 'react';
-import Profile from './views/Profile';
-import Home from './views/Home.js';
+import Profile from './views/components/Profile';
+import Home from './views/components/Home.js';
 
 import './style/global.css';
 
