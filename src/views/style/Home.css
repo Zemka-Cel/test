@@ -1,13 +1,32 @@
 .home{
     display: flex;
+flex-direction: column;  
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.first{
     flex-direction: column;
     align-items: center;
     
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
+}
+.second{
+
+}
+.tutors_container{
+    display: flex;
+    align-items: center;
+}
+.tutors_title{
+font-size: 24px;
+font-weight: 600;
+}
+.tutors_see{
+    align-content: flex-end;
+    margin-left: 60%;
 }
 .title{
+    text-align: center;
     margin-top: 32px;
     font-size: 24px;
     font-weight: 600;
@@ -32,4 +51,17 @@
     font-weight: 500;
     border: none;
     cursor: pointer;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.fields_pair{
+    display: flex;
+    margin-bottom: 16px;
+}
+.img_1{
+    margin-right: 16px;
 }
