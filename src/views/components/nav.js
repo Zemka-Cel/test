@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/navstyle.css';
+import Profilna from '../assets/profilna.png';
 
 class Nav extends React.Component {
 
@@ -11,7 +12,7 @@ class Nav extends React.Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span className=" "></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,6 +27,7 @@ class Nav extends React.Component {
                         </ul>
 
                     </div>
+                    <img className="pt-1" src={Profilna}></img>
                 </nav>
             </div>
         )
