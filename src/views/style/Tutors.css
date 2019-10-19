@@ -6,6 +6,7 @@
     margin-top: 24px;
     height: 100vh;
     overflow-y: scroll;
+    
 }
 .title_tutors{
     font-size: 24px;
@@ -20,6 +21,10 @@
 
 .radijus{
     border-radius: 15px;
+}
+.radijus_ri{
+    border-radius: 15px;
+    margin-left: -30px;
 }
 .maps{
     z-index: -2;

@@ -5,6 +5,7 @@
     
     height: 100vh;
     overflow-y: scroll;
+    padding: 16px;
 }
 .answers_title{
     font-size: 24px;

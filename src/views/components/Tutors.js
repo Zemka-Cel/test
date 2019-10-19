@@ -36,7 +36,7 @@ class Tutors extends React.Component {
 
                         </div>
                         <div className="col-2"></div>
-                        <div className="col-5 boja radijus ">
+                        <div className="col-5 boja radijus_ri ">
                             <img className="pt-2 pb-1 d-block m-auto " src={Profilna2}></img>
                             <h6 className="pt-1">Emina Softic</h6>
                             <p className="text-center">Math, Coding</p>
