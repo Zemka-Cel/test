@@ -1,11 +1,11 @@
 import React from 'react';
 import '../style/Home.css';
-import Math from '../assets/math.png';
-import Coding from '../assets/coding.png';
-import Eng from '../assets/engineering.png';
-import Science from '../assets/science.png';
-import Chemistry from '../assets/chemistry.png';
-import Physics from '../assets/physics.png';
+import Math from '../assets/math.svg';
+import Coding from '../assets/coding.svg';
+import Eng from '../assets/engineering.svg';
+import Science from '../assets/science.svg';
+import Chemistry from '../assets/chemistry.svg';
+import Physics from '../assets/physics.svg';
 import Nav from '../components/nav.js';
 import history from '../../history';
 
@@ -31,18 +31,39 @@ class Home extends React.Component {
 
                    <div className="fields"> 
                    <div className="fields_pair">
+                       <div className="fields_icon">
                 <img src={Math} className="img_1" onClick={()=> this.props.history.push('/answers')}></img>
+                <p className="fields_text">Math</p>
+                </div>
+                <div className="fields_icon">
                 <img src={Coding}></img>
+                <p className="fields_text">Coding</p>
+                </div>
                 </div>
 
                 <div className="fields_pair">
+
+                <div className="fields_icon">
                 <img src={Eng} className="img_1"></img>
+                <p className="fields_text">Engineering</p>
+                </div>
+
+                <div className="fields_icon">
                 <img src={Science}></img>
+                <p className="fields_text">Science</p>
+                </div>
                 </div>
 
                 <div className="fields_pair">
+                <div className="fields_icon">
                 <img src={Chemistry} className="img_1"></img>
+                <p className="fields_text">Chemistry</p>
+                </div>
+
+                <div className="fields_icon">
                 <img src={Physics}></img>
+                <p className="fields_text">Physics</p>
+                </div>
                 </div>
                 </div>
                 </div>

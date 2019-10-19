@@ -1,23 +1,24 @@
 import React from 'react';
 import '../style/Questions.css';
-import Speech from 'speak-tts'
+import Speech from 'speak-tts';
+import Avatar from '../assets/avatar_lejla.svg';
 
 
 
 const questions = [
     {
         name: "Lejla Omerovic",
-        img: 'https://taxwise-consulting.com/wp-content/uploads/2019/08/user-male.png',
+        img: Avatar,
         question: 'What is forumula for triangle calculation?',
     },
     {
         name: "Lejla Omerovic",
-        img: 'https://taxwise-consulting.com/wp-content/uploads/2019/08/user-male.png',
+        img: Avatar,
         question: 'Koja je fromula za racuanje obima trougla?',
     },
     {
         name: "Lejla Omerovic",
-        img: 'https://taxwise-consulting.com/wp-content/uploads/2019/08/user-male.png',
+        img: Avatar,
         question: 'Koja je fromula za racuanje obima trougla?',
     }
 ]
@@ -77,7 +78,7 @@ class Questions extends React.Component {
                     <div className="pill_inactive">
                         <p className="pill_txt">All</p>
                     </div>
-                    <div className="pill_active">
+                    <div className="pill_inactive">
                         <p className="pill_txt">Math</p>
                     </div>
                     <div className="pill_inactive">

@@ -33,7 +33,7 @@ margin-bottom: 40px;
 .user{
 display: flex;
 margin-bottom: 16px;
-align-items: center;
+align-items: center ;
 }
 .user_img{
 width: 40px;

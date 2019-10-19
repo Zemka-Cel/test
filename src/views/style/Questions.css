@@ -1,5 +1,5 @@
 .Questions{
-    padding: 3%;
+    margin: 24px;
     overflow: scroll;
 }
 .question{
@@ -16,9 +16,9 @@
     font-size: 16px;
 }
 .input_ask{
-    padding: 2px;
+    padding: 8px;
     font-size: 16px;
-    margin-top: 20px; 
+    margin-top: 0px; 
     margin-bottom: 20px; 
     width: 98%;
     height: 100px;
@@ -28,37 +28,30 @@
 }
 
 .pills{
-    margin-top: 20px; 
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .pill_inactive {
-    font-size: 16px;
-    margin: 2px;
-    padding: 5px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid #707070;
-    border-width: 1px;
-    width: 50px;
     border-radius: 20px;
+    border: 1px solid #A675FF;
+    display: inline-block;
+
+    color: #000;
+
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;     
 }
 
-.pill_active {
-    font-size: 16px;
-    margin: 2px;
-    padding: 5px;
-    background: #34aceb;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid #707070;
-    border-width: 1px;
-    width: 50px;
+.pill_inactive:active {
     border-radius: 20px;
+    border: 1px solid #A675FF;  
+    background-color: #ffaa66;
+
+    color: #fff;
+    cursor: pointer; 
 }
 
 .pill_txt{
@@ -74,15 +67,15 @@
 }
 
 .post{
-    margin: 10px;
+    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: solid #A675FF;
     border-radius: 20px;
     background: #A675FF;
-    width: 90%;
-    height: 200px;
+    width: 100%;
+    height: 200px;  
 }
 
 .profile{
@@ -100,9 +93,10 @@
 .profile_name{
     font-size: 20px;
     color: white;
+    margin-top: 10px;
 }
-.profile_content{
-    margin-left: 5%;
+    .profile_content{
+        margin-left: 5%;
     font-size: 18px;
     color: white;
 }
@@ -113,8 +107,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px; 
-    margin-left: 5%;
-    width: 95%;
+    width: 100%;
     height: 20px;
 }
 
