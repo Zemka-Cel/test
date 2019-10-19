@@ -1,3 +1,7 @@
+.Questions{
+    padding: 3%;
+    overflow: scroll;
+}
 .question{
     display: flex;
     flex-direction: column;
@@ -8,8 +12,118 @@
     font-weight: 600;
 }
 .text_ask{
+    margin-top: 10px; 
     font-size: 16px;
 }
 .input_ask{
+    padding: 2px;
+    font-size: 16px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    width: 98%;
+    height: 100px;
+    border: solid #B1B1B1;
+    border-radius: 10px;
+    border-width: 1px;
+}
 
+.pills{
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pill_inactive {
+    font-size: 16px;
+    margin: 2px;
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #707070;
+    border-width: 1px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.pill_active {
+    font-size: 16px;
+    margin: 2px;
+    padding: 5px;
+    background: #34aceb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #707070;
+    border-width: 1px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.pill_txt{
+    font-size: 16px;
+}
+.post_container{
+    margin-top: 20px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #A675FF;
+    border-radius: 20px;
+    background: #A675FF;
+    width: 90%;
+    height: 200px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+    width: 90%;
+    height: 20%;
+}
+.profile_img{
+    margin-right: 10px; 
+    height: 100%;
+}
+.profile_name{
+    font-size: 20px;
+    color: white;
+}
+.profile_content{
+    margin-left: 5%;
+    font-size: 18px;
+    color: white;
+}
+
+.options_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px; 
+    margin-left: 5%;
+    width: 95%;
+    height: 20px;
+}
+
+.options_txt{
+    color: white;
+}
+.speak_ico{
+    height: 150%;
+}
+.distancer{
+    width: 50%;
 }
