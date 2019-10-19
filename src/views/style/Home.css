@@ -3,6 +3,8 @@
     flex-direction: column;  
     margin-left: 24px;
     margin-right: 24px;
+    height: 100vh;
+    overflow-y: scroll;
 }
 .first{
     flex-direction: column;
@@ -23,6 +25,7 @@ font-weight: 600;
 .tutors_see{
     align-content: flex-end;
     margin-left: 60%;
+    font-size: 12px;
 }
 .title{
     text-align: center;

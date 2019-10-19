@@ -2,24 +2,29 @@ import React from 'react';
 import '../style/Questions.css';
 import Speech from 'speak-tts';
 import Avatar from '../assets/avatar_lejla.svg';
+import Audio from '../assets/audio.svg'
+import Nav from './nav';
 
+import history from '../../history';
+
+import Speaker from '../assets/speaker.svg';
 
 
 const questions = [
     {
         name: "Lejla Omerovic",
         img: Avatar,
-        question: 'What is forumula for triangle calculation?',
+        question: 'Koja je forumula za izracunavanje zapremine valjka?',
     },
     {
         name: "Lejla Omerovic",
         img: Avatar,
-        question: 'Koja je fromula za racuanje obima trougla?',
+        question: 'Da li je potrebno izracunati bazu indukcije kod zadataka i koje se vrijenosti uzimaju?',
     },
     {
         name: "Lejla Omerovic",
         img: Avatar,
-        question: 'Koja je fromula za racuanje obima trougla?',
+        question: 'Koja je formula za povrsinu kupe?',
     }
 ]
 
@@ -59,6 +64,7 @@ class Questions extends React.Component {
     render() {
         return (
             <div className="Questions">
+                <Nav></Nav>
                 <h1 
                     className="title_question">
                         Questions
@@ -72,18 +78,18 @@ class Questions extends React.Component {
                     className="input_ask">
 
                 </textarea>
+                <button className="btn_submit">Submit</button>
+                <div className="speak">
+                <p className="speak_text">Use audio search</p>
+                <img src={Audio}></img>
+                </div>
 
                 <h1 className="title_question">Feed</h1>
                 <div className="pills">
-                    <div className="pill_inactive">
-                        <p className="pill_txt">All</p>
-                    </div>
-                    <div className="pill_inactive">
-                        <p className="pill_txt">Math</p>
-                    </div>
-                    <div className="pill_inactive">
-                        <p className="pill_txt">Chem</p>
-                    </div>
+                    <p className="pills_txt">All</p>
+                    <p className="pills_txt"><b>Math</b></p>
+                    <p className="pills_txt">Coding</p>
+                    <p className="pills_txt">Science</p>
                 </div>
 
                 <div className="post_container">
@@ -109,7 +115,7 @@ class Questions extends React.Component {
                         </div>
 
                         <div className="options_bar">
-                            <p className="options_txt">
+                            <p className="options_txt" onClick={()=> this.props.history.push('/answers')}>
                                 See Answers
                             </p>
 
@@ -117,7 +123,7 @@ class Questions extends React.Component {
 
                             </div>
 
-                            <img onClick={() => this.speak(question.question)} className="speak_ico" src='https://cdn1.iconfinder.com/data/icons/users-outline-1/40/10-512.png'>
+                            <img onClick={() => this.speak(question.question)} className="speak_ico" src={Speaker}>
 
                             </img>
                         

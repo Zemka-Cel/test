@@ -1,6 +1,9 @@
 .Questions{
     margin: 24px;
     overflow: scroll;
+    
+    height: 100vh;
+    overflow-y: scroll;
 }
 .question{
     display: flex;
@@ -8,6 +11,7 @@
 }
 .title_question{
 
+    margin-top: 24px;
     font-size: 24px;
     font-weight: 600;
 }
@@ -21,16 +25,33 @@
     margin-top: 0px; 
     margin-bottom: 20px; 
     width: 98%;
-    height: 100px;
+    height: 50px;
     border: solid #B1B1B1;
     border-radius: 10px;
     border-width: 1px;
+}
+.speak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.speak_text{
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .pills{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.pills_txt{
+    margin-top: 16px;
+    margin-right: 16px;
+    font-size: 18px;
+
 }
 .pill_inactive {
     border-radius: 20px;
@@ -113,10 +134,25 @@
 
 .options_txt{
     color: white;
+    cursor: pointer;
 }
-.speak_ico{
-    height: 150%;
+.speak_ico{ 
+    margin-bottom: 32px;
 }
 .distancer{
     width: 50%;
+}
+.btn_submit{
+    margin-top: -24px;
+    margin-bottom: 24px;
+    outline: none;
+    background-color: #34ACEB;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
 }

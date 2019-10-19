@@ -32,11 +32,11 @@ class Home extends React.Component {
                    <div className="fields"> 
                    <div className="fields_pair">
                        <div className="fields_icon">
-                <img src={Math} className="img_1" onClick={()=> this.props.history.push('/answers')}></img>
+                <img src={Math} className="img_1" onClick={()=> this.props.history.push('/questions')}></img>
                 <p className="fields_text">Math</p>
                 </div>
                 <div className="fields_icon">
-                <img src={Coding}></img>
+                <img src={Coding}  onClick={()=> this.props.history.push('/questions')}></img>
                 <p className="fields_text">Coding</p>
                 </div>
                 </div>
@@ -44,24 +44,24 @@ class Home extends React.Component {
                 <div className="fields_pair">
 
                 <div className="fields_icon">
-                <img src={Eng} className="img_1"></img>
+                <img src={Eng} className="img_1" onClick={()=> this.props.history.push('/questions')}></img>
                 <p className="fields_text">Engineering</p>
                 </div>
 
                 <div className="fields_icon">
-                <img src={Science}></img>
+                <img src={Science} className="img_1" onClick={()=> this.props.history.push('/questions')}></img>
                 <p className="fields_text">Science</p>
                 </div>
                 </div>
 
                 <div className="fields_pair">
                 <div className="fields_icon">
-                <img src={Chemistry} className="img_1"></img>
+                <img src={Chemistry} className="img_1" onClick={()=> this.props.history.push('/questions')}></img>
                 <p className="fields_text">Chemistry</p>
                 </div>
 
                 <div className="fields_icon">
-                <img src={Physics}></img>
+                <img src={Physics} onClick={()=> this.props.history.push('/questions')}></img>
                 <p className="fields_text">Physics</p>
                 </div>
                 </div>

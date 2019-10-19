@@ -3,12 +3,9 @@
     flex-direction: column;
     margin-left: 24px;
     margin-right: 24px;
-}
-.title_tutors_main{
-    font-size: 22px;
-    font-weight: 500;
     margin-top: 24px;
-    color: #000000;
+    height: 100vh;
+    overflow-y: scroll;
 }
 .title_tutors{
     font-size: 24px;
@@ -23,4 +20,7 @@
 
 .radijus{
     border-radius: 15px;
-}   
+}
+.maps{
+    z-index: -2;
+}
