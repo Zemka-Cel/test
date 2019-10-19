@@ -1,0 +1,14 @@
+.tutors{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.boja {
+    background-color: #34ACEB;
+}
+
+.radijus{
+    border-radius: 15px;
+}

@@ -26,12 +26,13 @@ class Home extends React.Component {
                 <div className="second">
                     <div className="tutors_container">
                     <h1 className="tutors_title">Tutors</h1>
-                    <p className="tutors_see">SEE ALL</p>
+                    <p onClick={()=> this.props.history.push('/tutors')} className="tutors_see">SEE ALL</p>
                     </div>
 
                    <div className="fields"> 
                    <div className="fields_pair">
-                <img src={Math} className="img_1"></img>
+                <img
+                     src={Math} className="img_1"></img>
                 <img src={Coding}></img>
                 </div>
 
